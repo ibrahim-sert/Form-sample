@@ -5,8 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="conteiner">
+        <header>
+            <h1 class="title">KAYIT FORMU</h1>
+            <h3 class="description">Kayıt olduğunuz için teşekkürler</h3>
+        </header>
+        <div class="form-container">
+            <div class="survey-form">
+                <form action="result.html" method="get">
+                    <div class="input-box">
+                    <label for="name">First Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter First Name">
+                    </div>
+
+                    <div class="input-box">
+                    <label for="surname">Last Name</label>
+                    <br>
+                    <input type="text" id="surname" name="surname" placeholder="Enter Last Name">
+                    </div>
+
+                    <div class="input-box">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Enter Email">
+                    </div>
+
+                    <div class="input-box">
+                    <label for="phone">Phone Number</label>
+                    <br>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="inpt-box">
+                        <h4>Your Likes Books Types</h4>
+                        <input type="checkbox" name="first-check" id="novel" value="novel">
+                        <label for="novel">Novel</label>
+                        <br>
+                        <input type="checkbox" name="second-check" id="fiction" value="fiction">
+                        <label for="fiction">Fiction</label>
+                        <br>
+                        <input type="checkbox" name="third-check" id="history" value="history">
+                        <label for="history">History</label>
+                        <br>
+
+
+
+                    </div>
+                    <div class="input-box">
+                        <label for="gender">Gender</label>
+                        <br>
+                        <input type="radio" name="gender" id="first-radio" value="Male">
+                        <label for="first-radio">Man</label>
+                        <br>
+                        <input type="radio" name="gender" id="second-radio" value="Woman">
+                        <label for="first-radio">Woman</label>
+                        <br>
+                        <input type="radio" name="gender" id="third-radio" value="Other">
+                        <label for="first-radio">Other</label>
+                     </div>
+                     <div class="input-box">
+                        <label for="city">City</label>
+                        <br>
+                        <select name="city" id="dropdown">
+                            <option value="İstanbul">İstanbul</option>
+                            <option value="Ankara">Ankara</option>
+                            <option value="İzmir">İzmir</option>
+                            <option value="Bursa">Bursa</option>
+                            <option value="Gaziantep">Gaziantep</option>
+
+                        </select>
+                     </div>
+                </form>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>

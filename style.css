@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color: bisque;
+
+}
+.container{
+    height: 1000px;
+
+}
+header{
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+}
+.form-container{
+    width: 500px;
+    background-color: beige;
+    margin: auto;
+    color: blueviolet;
+}
+.survey-form{
+    max-width: 500px;
+    margin: auto;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
